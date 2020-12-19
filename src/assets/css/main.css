@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:200,300,400,600,700,800,900');
+@media (min-width: 48em) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 550px) {
+	nav {
+		width: 419px;
+	}
+	.blog-masthead {
+		overflow-x: scroll;
+	}
+	.index-text {
+		overflow: scroll;
+	}
+}
+
+.img-project-banner {
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: calc(.25rem - 1px);
+}
+
+.img-footer-link {
+	background-image: url("https://nurio.me/assets/img/mal-icon-b.png");
+	background-size: 44px 44px;
+	margin-bottom: 12.6px;
+}
+
+.img-footer-link:hover {
+	background-image: url("https://nurio.me/assets/img/mal-icon.png");
+	background-size: 44px 44px;
+	margin-bottom: 12.6px;
+}
+
+nav {
+	font-family: 'Muli', sans-serif;
+	font-size: 15px;
+}
+
+html {
+	background-color: #2090d4;
+}
+
+body {
+	font-family: 'Muli', sans-serif;
+	color: #555;
+	background-color: #f9f9f9;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+	font-family: 'Muli', sans-serif;
+	font-weight: normal;
+	color: #333;
+}
+
+#content {
+	/* 65px = navbar, 124px footbar*/
+	min-height: calc(100% - 212px);
+	background-color: #f9f9f9;
+	border-top: 2px solid #f9f9f9;
+	display: table;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+}
+
+.index-text {
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.image-home {
+	width: 340px;
+	max-width: 98%;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.font-white {
+	color: #fff;
+	font-weight: 700;
+}
+
+.web-body {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.blog-image {
+	max-width: 90%;
+}
+
+#home {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#home>blockquote {
+	margin-bottom: 30px;
+}
+
+#home>blockquote>p {
+	color: #333;
+}
+
+.badge-success {
+	background-color: #4fc36a !important;
+}
+
+body>div>div.blog-masthead>div>nav>a:nth-child(1) {
+	min-width: 81.08px;
+}
+
+body>div>div.blog-masthead>div>nav>a:nth-child(2) {
+	min-width: 110.69px;
+}
+
+body>div>div.blog-masthead>div>nav>a:nth-child(3) {
+	min-width: 78.65px;
+}
+
+body>div>div.blog-masthead>div>nav>a:nth-child(4) {
+	min-width: 115.56px;
+}
+
+/*
+ * Override Bootstrap's default container.
+ */
+
+.container {
+	max-width: 60rem;
+}
+
+/*
+ * Masthead for nav
+ */
+
+.blog-masthead {
+	margin-bottom: 0px;
+	background-color: #2090d4;
+	-webkit-box-shadow: inset 0 -.1rem .25rem rgba(0, 0, 0, .1);
+	box-shadow: inset 0 -.1rem .25rem rgba(0, 0, 0, .1);
+}
+
+/* Nav links */
+
+.nav-link {
+	position: relative;
+	padding: 1rem;
+	font-weight: 700;
+	color: #cdddeb;
+}
+
+.nav-link:hover, .nav-link:focus {
+	color: #fff;
+	background-color: transparent;
+}
+
+/* Active state gets a caret at the bottom */
+
+.nav-link.active {
+	color: #f9f9f9;
+}
+
+.nav-link.active:after {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	margin-left: -.3rem;
+	vertical-align: middle;
+	content: "";
+	border-right: .3rem solid transparent;
+	border-bottom: .3rem solid;
+	border-left: .3rem solid transparent;
+}
+
+/* Footer */
+
+.blog-footer {
+	padding: 25px 0px;
+	color: #f8f8f8;
+	text-align: center;
+	background-color: #2090d4;
+	border-top: 2px solid #f9f9f9;
+}
+
+.blog-footer p:last-child {
+	margin-bottom: 0;
+}
+
+.footer-link-area {
+	text-align: center;
+}
+
+a.footer-link {
+	margin: 5px;
+	text-decoration: none;
+	font-size: 50px;
+	color: #e8e8e8;
+}
+
+.footer-link:hover {
+	color: #c1c1c1;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+
+input[type=text].form-mail, select.form-mail, textarea.form-mail {
+	width: 100%;
+	/* Full width */
+	padding: 12px;
+	/* Some padding */
+	border: 1px solid #ccc;
+	/* Gray border */
+	border-radius: 4px;
+	/* Rounded borders */
+	box-sizing: border-box;
+	/* Make sure that padding and width stays in place */
+	margin-top: 6px;
+	/* Add a top margin */
+	margin-bottom: 16px;
+	/* Bottom margin */
+	resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+
+input[type=submit].form-mail {
+	background-color: #007bff;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+input[type=submit].form-mail:hover {
+	background-color: #175992;
+}
+
+/* Add a background color and some padding around the form */
+
+.container.form-mail {
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.st2 {
+	border-radius: 0;
+}
+
+.st3 {
+	border-radius: 5px;
+}
+
+/* Text Right when desktop */
+
+.mrM-auto {
+	margin-right: auto!important;
+}
+
+.mbM-2 {
+	margin-bottom: .25rem!important;
+}
+
+.text-right-when-desktop-center-when-phone {
+	text-align: right!important;
+}
+
+.text-left-when-desktop-center-when-phone {
+	text-align: left!important;
+}
+
+.brs-8 {
+	border-radius: 8px;
+}
+
+@media (max-width: 550px) {
+	.text-right-when-desktop-center-when-phone {
+		text-align: center!important;
+	}
+	.text-left-when-desktop-center-when-phone {
+		text-align: center!important;
+	}
+	.mrM-auto {
+		margin: auto!important;
+	}
+	.mbM-2 {
+		margin-bottom: .5rem!important;
+	}
+}

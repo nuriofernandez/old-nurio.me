@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteRule ^projects$  /index.php?web=projects [NC,L]
+    RewriteRule ^aboutme$  /index.php?web=aboutme [NC,L]
+    RewriteRule ^contact$  /index.php?web=contact [NC,L]
+    RewriteRule ^contact/send$  /index.php?web=contact-send [NC,L]
+    RewriteRule ^404$  /index.php?web=404 [NC,L]
+
+    ErrorDocument 404     /index.php?web=404
+</IfModule>
