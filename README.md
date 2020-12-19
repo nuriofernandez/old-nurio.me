@@ -4,7 +4,7 @@ This is the source code for my old PHP based website. This website was developed
 
 # Component based
 
-I didn't use any framework at all, I just write some code to make it possible. With that, you can use each file as a component, something like React.
+Without using any framework, I wrote some code to make it possible, each file can be considered as a component, something like React but much smaller.
 
 ### Component loading from GET param
 ![Component loader](/documentation/images/component-loader.svg)
