@@ -123,7 +123,7 @@ ob_end_clean();
 	    <script src="https://maxcdn.bootstrapcdn.com/js/ie10-viewport-bug-workaround.js"></script>
 
 		<!-- CUSTOM SITE JS -->
-	    <script async type="text/javascript" src="<?php echo $domain; ?>assets/js/scripts.js"></script>
+	    <script async type="text/javascript" src="<?php echo $domain; ?>assets/js/dango.js"></script>
 	    <script async type="text/javascript" src="<?php echo $domain; ?>assets/js/post-load-optimizer.js"></script>
 	    <script async type="text/javascript" src="<?php echo $domain; ?>assets/js/dynamic-page.js"></script>
 		
