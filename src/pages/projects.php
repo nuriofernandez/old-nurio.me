@@ -121,5 +121,9 @@
 		</div>
 	</section>
 
+	<?php
+		include('components/project.php')
+	?>
+
 	<div style="height:50px"></div>
 </div>
