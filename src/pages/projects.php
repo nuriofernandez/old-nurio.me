@@ -21,6 +21,12 @@ function renderProject($name, $tabulation)
 
 	<div style="height:50px"></div>
 
+	<!-- START OF 'reflected-event-handler' PROJECT CONTENT -->
+	<?php renderProject('reflected-event-handler', "\t"); ?>
+	<!-- END OF PROJECT CONTENT -->
+
+	<div style="height:50px"></div>
+
 	<!-- START OF 'ads-link-skiper' PROJECT CONTENT -->
 	<?php renderProject('ads-link-skiper', "\t"); ?>
 	<!-- END OF PROJECT CONTENT -->
