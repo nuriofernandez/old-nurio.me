@@ -15,6 +15,12 @@ function renderProject($name, $tabulation)
 
 	<div style="height:50px"></div>
 
+	<!-- START OF 'minecraft-servers' PROJECT CONTENT -->
+	<?php renderProject('minecraft-servers', "\t"); ?>
+	<!-- END OF PROJECT CONTENT -->
+
+	<div style="height:50px"></div>
+
 	<!-- START OF 'minecraft-server-list' PROJECT CONTENT -->
 	<?php renderProject('minecraft-server-list', "\t"); ?>
 	<!-- END OF PROJECT CONTENT -->
@@ -47,12 +53,6 @@ function renderProject($name, $tabulation)
 
 	<!-- START OF 'glaucus' PROJECT CONTENT -->
 	<?php renderProject('glaucus', "\t"); ?>
-	<!-- END OF PROJECT CONTENT -->
-
-	<div style="height:50px"></div>
-
-	<!-- START OF 'minecraft-servers' PROJECT CONTENT -->
-	<?php renderProject('minecraft-servers', "\t"); ?>
 	<!-- END OF PROJECT CONTENT -->
 
 	<div style="height:50px"></div>
