@@ -21,5 +21,6 @@ function playEffect() {
 
 
     const audio = new Audio(`https://${window.location.hostname}/assets/audio/dango.mov`);
+    audio.loop = true;
     audio.play();
 }
