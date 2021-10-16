@@ -33,6 +33,12 @@ function renderProject($name, $tabulation)
 
 	<div style="height:50px"></div>
 
+	<!-- START OF 'tropico-memory-hacking-library' PROJECT CONTENT -->
+	<?php renderProject('tropico-memory-hacking-library', "\t"); ?>
+	<!-- END OF PROJECT CONTENT -->
+
+	<div style="height:50px"></div>
+
 	<!-- START OF 'ads-link-skiper' PROJECT CONTENT -->
 	<?php renderProject('ads-link-skiper', "\t"); ?>
 	<!-- END OF PROJECT CONTENT -->
