@@ -11,12 +11,13 @@ document.addEventListener('keypress',function(e){
 /**
  * Starts the dango falling and plays the dango song! 🍡🎶
  */
+const domain = `${window.location.protocol}//${window.location.hostname}`;
 function playEffect() {
     // Add css style to make dangos fall. 🍃
     const style = document.createElement("link");
     style.setAttribute("rel", "stylesheet");
     style.setAttribute("type", "text/css");
-    style.setAttribute("href", `https://${window.location.hostname}/assets/css/dango.css`);
+    style.setAttribute("href", `${domain}/assets/css/dango.css`);
     document.getElementsByTagName("head")[0].appendChild(style);
 
     // Create the area where the dangos will fall, and spawn some dangos. 📦
@@ -29,7 +30,7 @@ function playEffect() {
     document.getElementsByTagName("body")[0].appendChild(loader);
 
     // Play the dango song!! 💞
-    const audio = new Audio(`https://${window.location.hostname}/assets/audio/dango.mov`);
+    const audio = new Audio(`${domain}/assets/audio/dango.mov`);
     audio.loop = true;
     audio.play();
 }
