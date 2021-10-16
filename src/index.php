@@ -73,7 +73,7 @@ ob_end_clean();
 			<!-- BLOCK : FOOTER -->
 			<footer class="blog-footer">
 				<div class="container">
-					<i>Starting from zero is the strength of innovation.</i>
+					<i>Simplicity is the ultimate form of sophistication.</i>
 					<div class="footer-link-area">
 					
 						<a alt="Twitter Profile" class="footer-link" href="https://twitter.com/nuriofernandez" target="_blank">
