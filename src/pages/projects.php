@@ -27,6 +27,12 @@ function renderProject($name, $tabulation)
 
 	<div style="height:50px"></div>
 
+	<!-- START OF 'gta-sa-memory-hacking' PROJECT CONTENT -->
+	<?php renderProject('gta-sa-memory-hacking', "\t"); ?>
+	<!-- END OF PROJECT CONTENT -->
+
+	<div style="height:50px"></div>
+
 	<!-- START OF 'ads-link-skiper' PROJECT CONTENT -->
 	<?php renderProject('ads-link-skiper', "\t"); ?>
 	<!-- END OF PROJECT CONTENT -->
