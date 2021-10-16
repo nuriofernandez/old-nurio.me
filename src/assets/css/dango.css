@@ -8,10 +8,8 @@
 .loader span {
     width: 128px;
     height: 128px;
-   /* margin: -280px 40px 54px -34px;
-    */
-    background: url("https://i.imgur.com/7AMQjPs.png");
     opacity: 0;
+    background: url("https://i.imgur.com/7AMQjPs.png");
     -webkit-animation: loader 10s infinite linear;
     -moz-animation: loader 10s infinite linear;
     animation: loader 10s infinite linear;
