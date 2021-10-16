@@ -32,3 +32,9 @@ With the script [`post-load-optimizer.js`](https://github.com/xXNurioXx/old-php-
 # Web responsive
 
 ![Responsive web preview](/documentation/images/responsive-preview.gif)
+
+# Dango daikazoku (だんご大家族) easter egg
+
+With the script [`dango.js`](https://github.com/xXNurioXx/old-php-nurio.me/blob/master/src/assets/js/dango.js) the page plays the best song of the world and shows the best thing in the world falling around when someone types `dango` anywhere in the website.
+
+![Dango daikazoku preview](/documentation/images/dango-easter-egg.gif)
