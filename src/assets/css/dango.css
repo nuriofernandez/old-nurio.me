@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    overflow-x: clip; /* avoid dangos going out of the borders */
 }
 .loader span {
     width: 128px;
