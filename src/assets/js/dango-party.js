@@ -49,6 +49,6 @@
         const audio = getAudio();
         audio.pause();
         document.querySelector(`#${dangoFallingElementId}`)?.remove();
-        document.querySelector(`${dangoFallingElementId}-css`)?.remove();
+        document.querySelector(`#${dangoFallingElementId}-css`)?.remove();
     });
 })();
