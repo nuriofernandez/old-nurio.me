@@ -20,6 +20,7 @@
     document.addEventListener('dango-effect-should-start', () => {
         // Add css style to make dangos fall. 🍃
         const style = document.createElement("link");
+        style.setAttribute("id", `${dangoFallingElementId}-css`);
         style.setAttribute("rel", "stylesheet");
         style.setAttribute("type", "text/css");
         style.setAttribute("href", `${domain}/assets/css/dango.css`);
@@ -48,5 +49,6 @@
         const audio = getAudio();
         audio.pause();
         document.querySelector(`#${dangoFallingElementId}`)?.remove();
+        document.querySelector(`${dangoFallingElementId}-css`)?.remove();
     });
 })();
