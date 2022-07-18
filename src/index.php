@@ -96,7 +96,7 @@ ob_end_clean();
 							<img class="img-footer-link" src="<?php echo $domain; ?>assets/img/dot.png" width="43.75px" height="43.75px"/>
 						</a>
 
-						<a alt="Youtube Channel" class="footer-link" href="https://www.youtube.com/channel/UCc5aie-j2C4iAcOQgkSHLEQ" target="_blank">
+						<a alt="Youtube Channel" class="footer-link" href="https://www.youtube.com/channel/UCIWkpsyJH3RgZIzk0_lm3mQ" target="_blank">
 							<i class="fab fa-youtube" data-fa-transform="shrink-4" data-fa-mask="fas fa-square"></i>
 						</a>
 
