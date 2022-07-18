@@ -13,19 +13,26 @@
 
 			<!-- BLOCK : PROFILE IMAGE -->
 			<div class="col-md-3">
-				<img src="https://i.imgur.com/7a8fGGfs.png" height="240px" class="brs-8">
+				<img src="https://i.imgur.com/xXoTtGPm.png" height="310px" class="brs-8">
 			</div>
 			
 			<!-- BLOCK : TEXT -->
 			<div class="col-md-9">
 				<div id="aboutme-header">
 					<p class="blog-post-meta pt-1">
-						Hello! I'm Nurio, a software developer. I'm experienced mainly with <b>Java</b> but I also know a lot of <b>Javascript</b> and <b>PHP</b> among others.
-						Speaking about technologies or tools, I've experienced with <b>NodeJS</b>, <b>ElectronJS</b>, <b>MySQL</b>, <b>SpringBoot/Hibernate</b> among others.
-						The programming concepts that I'm most passionate about are <b>asynchronous</b>, <b>cryptography</b> and <b>sockets</b>. Programming is <b>fun</b> when you have to <b>solve complex puzzles</b>.
-						That's the reason why I love getting obsessed to get the best solution to each problem.
+						Hellouda! How are you doing?! Let's start with a description about myself!
 					</p>
-					<p class="blog-post-meta">My anthem: <i>To see a world in a Grain of Sand, and a Heaven in a Wild Flower, hold Infinity in the palm of your hand, and Eternity in an hour.</i> (William Blake)</p>
+					<p class="blog-post-meta pt-1">
+                    	Sooooooo, back in the days I sued to be an owner of Minecraft servers and plugins developer.
+                    	I'm always going to be proud of the Minecraft community, for me the Minecraft community is one of the most epic <a target="_blank" href="https://en.wikipedia.org/wiki/Hacker_culture">hacker</a> communities.
+                    </p>
+                    <p class="blog-post-meta pt-1">
+                        These days I'm not in Minecraft anymore, I became an agnostic software developer, I'm in love with many languages, Java, JS, TS, GO, PHP, C, C++, etc.
+                        But more important than languages, what I like the most is the KISS principle. I love high quality code over any other topic.
+                    </p>
+					<p class="blog-post-meta">
+					    Keeping things simple is the key to achieve goals. Simplicity is the ultimate form of sophistication. Do not over complicate yourself!
+					</p>
 				</div>
 			</div>
 
