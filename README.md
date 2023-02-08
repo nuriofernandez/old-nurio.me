@@ -1,8 +1,7 @@
 # NURIO.ME's PHP version website
 
-This is the source code for my old PHP based website. This website was developed around 2015 and has had small modifications since then. Now, I am moving it to ReactJs as it allows me to develop the website based on components in a better and beautiful way.
-
-### To see the new React based website go to [this repo](https://github.com/xXNurioXx/nurio.me)
+This is the source code of my website. This website was developed around 2015 and has had small modifications since then.
+It is old, it looks old, but it is stills awesome. 💞🍡
 
 # Component based
 
